@@ -32,10 +32,10 @@ export const AddUser = () => {
   return (
     <Form onSubmit={onSubmit}>
       <FormGroup >
-        <Label>Adcionar Filme</Label>
+        <Label>Adicionar Filme</Label>
         <Input type="text" value={name} onChange={onChange} name="name" placeholder="Nome do Filme" required></Input>
       </FormGroup>
-      <Button className="btn btn-dark mr-1" type="submit">Adcionar</Button>
+      <Button className="btn btn-dark mr-1" type="submit">Adicionar</Button>
       <Link to="/" className="btn btn-danger ml-2">Cancelar</Link>
     </Form>
   )
