@@ -15,10 +15,10 @@ export const UserList = () => {
       {users.length > 0 ? (
         <>
           {users.map(user => (
-            <ListGroupItem className="d-flex" key={user.id}>
+            <ListGroupItem className="d-flex justify-content-between"  key={user.id}>
               <strong>{user.name}</strong>
               <div className="ml-auto">
-                <Link to={`/edit/${user.id}`} color="success" className="btn btn-dark mr-2">Editar</Link>
+                <Link to={`/edit/${user.id}`} color="success" className="btn btn-dark mr-1">Editar</Link>
                 <Button onClick={() => removeUser(user.id)} color="danger">Deletar</Button>
               </div>
             </ListGroupItem>
