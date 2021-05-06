@@ -1,9 +1,12 @@
-# crud-react
- crud com ReactJS
+# CRUD react app with context api
+Create CRUD application using react hooks and context api.
 
-# salve crias
- aaaaa teste do  haile teste teste
+## screenshot
+![React CRUD app](./src/ss.png)
 
-teste1 - Erica
+## Links
+Reactstrap : https://reactstrap.github.io/
 
-Teste 3 
+### Video Tutorial
+[Part 1](https://youtu.be/5KZ1XBcSaH4)
+[Part 2](https://youtu.be/_1QtdnqHq8I)
