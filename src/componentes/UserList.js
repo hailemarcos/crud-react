@@ -18,14 +18,14 @@ export const UserList = () => {
             <ListGroupItem className="d-flex" key={user.id}>
               <strong>{user.name}</strong>
               <div className="ml-auto">
-                <Link to={`/edit/${user.id}`} color="success" className="btn btn-dark mr-1">Editar</Link>
+                <Link to={`/edit/${user.id}`} color="success" className="btn btn-dark mr-2">Editar</Link>
                 <Button onClick={() => removeUser(user.id)} color="danger">Deletar</Button>
               </div>
             </ListGroupItem>
           ))}
         </>
       ) : (
-          <h4 className="text-center">No Users</h4>
+          <h4 className="text-center">Sem Usuarios</h4>
         )}
     </ListGroup>
   )
